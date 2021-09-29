@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "19547010102",
+    "project_id": "t-shirt-designer-f5223",
+    "storage_bucket": "t-shirt-designer-f5223.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19547010102:android:c860644d8f0e831f1a9497",
+        "android_client_info": {
+          "package_name": "com.srdev.t_shirtdesigner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19547010102-eorqea1butng1hhnshglttj57ci9q91k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEth_d7IAMBmEuW24QOvtA2CWgf-hcTXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19547010102-eorqea1butng1hhnshglttj57ci9q91k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

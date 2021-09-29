@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/gridviewdata"
+        android:layout_width="190dp"
+        android:background="#fff"
+        android:layout_height="200dp">
+
+<!--        <TextView-->
+<!--            android:id="@+id/fruits"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:text="Apple"-->
+<!--            android:textStyle="normal|italic"-->
+<!--            android:textSize="25dp" />-->
+
+        <ImageView
+            android:id="@+id/grid_image"
+            android:layout_width="150dp"
+            android:layout_height="190dp"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/r_whitetshirt" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/gridviewdata2"
+        android:layout_width="190dp"
+        android:background="#fff"
+        android:visibility="gone"
+        android:layout_height="200dp">
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="Rs.30/-"
+                    android:textColor="#201F1F"
+                    android:textStyle="normal|italic"
+                    android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/grid_image2"
+            android:layout_width="140dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo1" />
+    </RelativeLayout>
+</RelativeLayout>

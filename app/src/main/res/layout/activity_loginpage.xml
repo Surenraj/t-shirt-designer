@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:weightSum="7"
+    tools:context=".loginpage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ui_logo"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right|center"
+                tools:ignore="RtlHardcoded">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_ui_grad"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="3"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="bottom"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="@font/roboto_black"
+                android:text="Login"
+                android:textColor="#D0000000"
+                android:textSize="38sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/login_email_edit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/edit_txt_1"
+                android:fontFamily="@font/roboto_light"
+                android:hint="Email"
+                android:textColor="#494747"
+                android:inputType="textEmailAddress"
+                android:paddingStart="20dp"
+                android:textColorHint="#494747" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="1">
+            <EditText
+                android:id="@+id/login_password_edit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/edit_txt_1"
+                android:fontFamily="@font/roboto_light"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="#494747"
+                android:paddingLeft="20dp"
+                android:textColorHint="#494747"  />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_login_getin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_rectangle_grad"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Get in"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="23sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center|bottom"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/new_user_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New user!! Signup"
+            android:textColor="#000000"
+            android:layout_marginBottom="20dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/roboto_light"
+            />
+    </LinearLayout>
+</LinearLayout>
